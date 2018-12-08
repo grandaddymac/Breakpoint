@@ -19,6 +19,7 @@
 		D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28121BC2E9F00C4C844 /* LoginVC.swift */; };
 		D89AC28421BC2F3700C4C844 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28321BC2F3700C4C844 /* InsetTextField.swift */; };
 		D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28521BC372200C4C844 /* ShadowView.swift */; };
+		D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28721BC3DBC00C4C844 /* AuthService.swift */; };
 		E73A2EC8F73C0C84AD484296 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		D89AC28121BC2E9F00C4C844 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D89AC28321BC2F3700C4C844 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		D89AC28521BC372200C4C844 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		D89AC28721BC3DBC00C4C844 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		EE316E64AC24ECE163DF353A /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D89AC27D21BB3CE300C4C844 /* DataService.swift */,
+				D89AC28721BC3DBC00C4C844 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D89AC28021BC2E6600C4C844 /* AuthVC.swift in Sources */,
 				D89AC26721B9F91B00C4C844 /* SecondViewController.swift in Sources */,
 				D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */,
+				D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */,
 				D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */,
 				D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */,
 				D89AC26521B9F91B00C4C844 /* FirstViewController.swift in Sources */,
