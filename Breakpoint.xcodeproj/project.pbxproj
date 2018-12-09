@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26221B9F91B00C4C844 /* AppDelegate.swift */; };
-		D89AC26521B9F91B00C4C844 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26421B9F91B00C4C844 /* FirstViewController.swift */; };
-		D89AC26721B9F91B00C4C844 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26621B9F91B00C4C844 /* SecondViewController.swift */; };
+		D89AC26521B9F91B00C4C844 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26421B9F91B00C4C844 /* FeedVC.swift */; };
+		D89AC26721B9F91B00C4C844 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26621B9F91B00C4C844 /* GroupsVC.swift */; };
 		D89AC26A21B9F91B00C4C844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89AC26821B9F91B00C4C844 /* Main.storyboard */; };
 		D89AC26C21B9F91D00C4C844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89AC26B21B9F91D00C4C844 /* Assets.xcassets */; };
 		D89AC26F21B9F91D00C4C844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89AC26D21B9F91D00C4C844 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,7 @@
 		D89AC28421BC2F3700C4C844 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28321BC2F3700C4C844 /* InsetTextField.swift */; };
 		D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28521BC372200C4C844 /* ShadowView.swift */; };
 		D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28721BC3DBC00C4C844 /* AuthService.swift */; };
+		D89AC28A21BDE1AB00C4C844 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28921BDE1AB00C4C844 /* MeVC.swift */; };
 		E73A2EC8F73C0C84AD484296 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +29,8 @@
 		CBE2B6130AE298B450DECA1A /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		D89AC25F21B9F91B00C4C844 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89AC26221B9F91B00C4C844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D89AC26421B9F91B00C4C844 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D89AC26621B9F91B00C4C844 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D89AC26421B9F91B00C4C844 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		D89AC26621B9F91B00C4C844 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		D89AC26921B9F91B00C4C844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D89AC26B21B9F91D00C4C844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89AC26E21B9F91D00C4C844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		D89AC28321BC2F3700C4C844 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		D89AC28521BC372200C4C844 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		D89AC28721BC3DBC00C4C844 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D89AC28921BDE1AB00C4C844 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		EE316E64AC24ECE163DF353A /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,10 +114,11 @@
 		D89AC27621B9F95A00C4C844 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D89AC26421B9F91B00C4C844 /* FirstViewController.swift */,
-				D89AC26621B9F91B00C4C844 /* SecondViewController.swift */,
+				D89AC26421B9F91B00C4C844 /* FeedVC.swift */,
+				D89AC26621B9F91B00C4C844 /* GroupsVC.swift */,
 				D89AC27F21BC2E6600C4C844 /* AuthVC.swift */,
 				D89AC28121BC2E9F00C4C844 /* LoginVC.swift */,
+				D89AC28921BDE1AB00C4C844 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,13 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89AC28A21BDE1AB00C4C844 /* MeVC.swift in Sources */,
 				D89AC28021BC2E6600C4C844 /* AuthVC.swift in Sources */,
-				D89AC26721B9F91B00C4C844 /* SecondViewController.swift in Sources */,
+				D89AC26721B9F91B00C4C844 /* GroupsVC.swift in Sources */,
 				D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */,
 				D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */,
 				D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */,
 				D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */,
-				D89AC26521B9F91B00C4C844 /* FirstViewController.swift in Sources */,
+				D89AC26521B9F91B00C4C844 /* FeedVC.swift in Sources */,
 				D89AC28421BC2F3700C4C844 /* InsetTextField.swift in Sources */,
 				D89AC27E21BB3CE300C4C844 /* DataService.swift in Sources */,
 			);
