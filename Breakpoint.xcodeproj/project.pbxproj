@@ -22,6 +22,9 @@
 		D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28721BC3DBC00C4C844 /* AuthService.swift */; };
 		D89AC28A21BDE1AB00C4C844 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28921BDE1AB00C4C844 /* MeVC.swift */; };
 		D89AC28C21BDE8C300C4C844 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28B21BDE8C300C4C844 /* CreatePostVC.swift */; };
+		D89AC28E21BF34F700C4C844 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28D21BF34F700C4C844 /* Message.swift */; };
+		D89AC29021BF417000C4C844 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28F21BF417000C4C844 /* UIViewExt.swift */; };
+		D89D79C321C078A500B28827 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C221C078A500B28827 /* FeedCell.swift */; };
 		E73A2EC8F73C0C84AD484296 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		D89AC28721BC3DBC00C4C844 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D89AC28921BDE1AB00C4C844 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		D89AC28B21BDE8C300C4C844 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		D89AC28D21BF34F700C4C844 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D89AC28F21BF417000C4C844 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		D89D79C221C078A500B28827 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EE316E64AC24ECE163DF353A /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +137,7 @@
 			children = (
 				D89AC28321BC2F3700C4C844 /* InsetTextField.swift */,
 				D89AC28521BC372200C4C844 /* ShadowView.swift */,
+				D89D79C221C078A500B28827 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 		D89AC27821B9F97B00C4C844 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D89AC28D21BF34F700C4C844 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 		D89AC27921B9F99000C4C844 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D89AC28F21BF417000C4C844 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -285,15 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89AC29021BF417000C4C844 /* UIViewExt.swift in Sources */,
 				D89AC28A21BDE1AB00C4C844 /* MeVC.swift in Sources */,
 				D89AC28021BC2E6600C4C844 /* AuthVC.swift in Sources */,
 				D89AC26721B9F91B00C4C844 /* GroupsVC.swift in Sources */,
 				D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */,
 				D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */,
 				D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */,
+				D89D79C321C078A500B28827 /* FeedCell.swift in Sources */,
 				D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */,
 				D89AC28C21BDE8C300C4C844 /* CreatePostVC.swift in Sources */,
 				D89AC26521B9F91B00C4C844 /* FeedVC.swift in Sources */,
+				D89AC28E21BF34F700C4C844 /* Message.swift in Sources */,
 				D89AC28421BC2F3700C4C844 /* InsetTextField.swift in Sources */,
 				D89AC27E21BB3CE300C4C844 /* DataService.swift in Sources */,
 			);
