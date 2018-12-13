@@ -25,6 +25,7 @@
 		D89AC28E21BF34F700C4C844 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28D21BF34F700C4C844 /* Message.swift */; };
 		D89AC29021BF417000C4C844 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC28F21BF417000C4C844 /* UIViewExt.swift */; };
 		D89D79C321C078A500B28827 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C221C078A500B28827 /* FeedCell.swift */; };
+		D89D79C521C1E4DC00B28827 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C421C1E4DC00B28827 /* CreateGroupsVC.swift */; };
 		E73A2EC8F73C0C84AD484296 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		D89AC28D21BF34F700C4C844 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D89AC28F21BF417000C4C844 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		D89D79C221C078A500B28827 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D89D79C421C1E4DC00B28827 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		EE316E64AC24ECE163DF353A /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				D89AC28121BC2E9F00C4C844 /* LoginVC.swift */,
 				D89AC28921BDE1AB00C4C844 /* MeVC.swift */,
 				D89AC28B21BDE8C300C4C844 /* CreatePostVC.swift */,
+				D89D79C421C1E4DC00B28827 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */,
 				D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */,
 				D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */,
+				D89D79C521C1E4DC00B28827 /* CreateGroupsVC.swift in Sources */,
 				D89D79C321C078A500B28827 /* FeedCell.swift in Sources */,
 				D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */,
 				D89AC28C21BDE8C300C4C844 /* CreatePostVC.swift in Sources */,
