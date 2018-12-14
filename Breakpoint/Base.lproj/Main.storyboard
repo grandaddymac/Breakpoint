@@ -445,9 +445,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_newgroup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzM-tj-t51">
-                                        <rect key="frame" x="137.5" y="34.5" width="100" height="21"/>
+                                        <rect key="frame" x="138.5" y="34.5" width="98" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="1fz-8b-IqU"/>
                                             <constraint firstAttribute="height" constant="21" id="aVR-Xz-weF"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
@@ -455,9 +454,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOS-4D-Pck">
-                                        <rect key="frame" x="295" y="30" width="60" height="30"/>
+                                        <rect key="frame" x="314" y="30" width="41" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="WzD-RY-yAv"/>
                                             <constraint firstAttribute="height" constant="30" id="bDN-U2-6az"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
@@ -483,6 +481,7 @@
                                     <constraint firstItem="jzM-tj-t51" firstAttribute="centerY" secondItem="jDM-aR-OLN" secondAttribute="centerY" id="ccu-It-FmR"/>
                                     <constraint firstAttribute="trailing" secondItem="kOS-4D-Pck" secondAttribute="trailing" constant="20" id="f6J-wy-guH"/>
                                     <constraint firstItem="kOS-4D-Pck" firstAttribute="top" secondItem="YAg-Xj-j6O" secondAttribute="top" constant="30" id="gWk-PA-fqP"/>
+                                    <constraint firstItem="kOS-4D-Pck" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jzM-tj-t51" secondAttribute="trailing" constant="8" symbolic="YES" id="mMh-7b-ewa"/>
                                     <constraint firstItem="jzM-tj-t51" firstAttribute="centerX" secondItem="YAg-Xj-j6O" secondAttribute="centerX" id="qx5-gV-oZo"/>
                                     <constraint firstAttribute="height" constant="70" id="yfD-mM-T3A"/>
                                 </constraints>
@@ -545,19 +544,19 @@
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="userCell" rowHeight="60" id="hKG-Ka-t3X" customClass="UserCell" customModule="Breakpoint" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="335" height="60"/>
                                                 <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hKG-Ka-t3X" id="L1W-JT-xg0">
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hKG-Ka-t3X" id="L1W-JT-xg0">
                                                     <rect key="frame" x="0.0" y="0.0" width="335" height="60"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="b6y-bJ-1q4">
-                                                            <rect key="frame" x="10" y="5" width="44" height="44"/>
+                                                            <rect key="frame" x="10" y="5" width="40" height="40"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="44" id="PlB-Fy-BEz"/>
-                                                                <constraint firstAttribute="height" constant="44" id="sKN-u8-4uu"/>
+                                                                <constraint firstAttribute="width" constant="40" id="PlB-Fy-BEz"/>
+                                                                <constraint firstAttribute="height" constant="40" id="sKN-u8-4uu"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="sD0-cK-yk6">
-                                                            <rect key="frame" x="74" y="16" width="226" height="40"/>
+                                                            <rect key="frame" x="70" y="5" width="230" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="sfw-Gp-Ecu"/>
                                                             </constraints>
@@ -566,7 +565,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteCheckmark" translatesAutoresizingMaskIntoConstraints="NO" id="Rtt-Sh-KkE">
-                                                            <rect key="frame" x="310" y="11" width="20" height="14"/>
+                                                            <rect key="frame" x="310" y="11" width="20" height="28"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="20" id="Hsp-17-SdJ"/>
                                                             </constraints>
@@ -574,14 +573,14 @@
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="sD0-cK-yk6" firstAttribute="leading" secondItem="b6y-bJ-1q4" secondAttribute="trailing" constant="20" id="3h0-Du-xuk"/>
-                                                        <constraint firstAttribute="bottomMargin" secondItem="Rtt-Sh-KkE" secondAttribute="bottom" id="4dg-QA-86X"/>
                                                         <constraint firstItem="b6y-bJ-1q4" firstAttribute="top" secondItem="L1W-JT-xg0" secondAttribute="top" constant="5" id="57V-CV-pw8"/>
+                                                        <constraint firstItem="Rtt-Sh-KkE" firstAttribute="centerY" secondItem="sD0-cK-yk6" secondAttribute="centerY" id="7OY-NI-zMz"/>
                                                         <constraint firstAttribute="bottomMargin" secondItem="sD0-cK-yk6" secondAttribute="bottom" constant="5" id="GlJ-yA-9OF"/>
-                                                        <constraint firstItem="sD0-cK-yk6" firstAttribute="top" secondItem="L1W-JT-xg0" secondAttribute="topMargin" constant="5" id="Niz-cM-5Cp"/>
                                                         <constraint firstItem="Rtt-Sh-KkE" firstAttribute="trailing" secondItem="L1W-JT-xg0" secondAttribute="trailingMargin" constant="10" id="Q92-FI-gN0"/>
                                                         <constraint firstItem="b6y-bJ-1q4" firstAttribute="leading" secondItem="L1W-JT-xg0" secondAttribute="leading" constant="10" id="Vfm-fB-69U"/>
                                                         <constraint firstAttribute="bottom" secondItem="b6y-bJ-1q4" secondAttribute="bottom" constant="5" id="cnl-gp-Prg"/>
                                                         <constraint firstItem="Rtt-Sh-KkE" firstAttribute="top" secondItem="L1W-JT-xg0" secondAttribute="topMargin" id="pbO-6y-ofn"/>
+                                                        <constraint firstItem="b6y-bJ-1q4" firstAttribute="centerY" secondItem="sD0-cK-yk6" secondAttribute="centerY" id="rH1-uy-ykB"/>
                                                         <constraint firstItem="Rtt-Sh-KkE" firstAttribute="leading" secondItem="sD0-cK-yk6" secondAttribute="trailing" constant="10" id="xjD-bZ-Ay1"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
@@ -610,7 +609,7 @@
                         <viewLayoutGuide key="safeArea" id="8ef-kp-O5r"/>
                     </view>
                     <connections>
-                        <outlet property="desctiptionTextField" destination="7uY-wh-1rq" id="pGs-yg-a0X"/>
+                        <outlet property="descriptionTextField" destination="7uY-wh-1rq" id="Qrs-J7-9r3"/>
                         <outlet property="doneButton" destination="kOS-4D-Pck" id="5DA-h8-LZZ"/>
                         <outlet property="emailSearchTextField" destination="Xt3-WS-XYP" id="Jmv-Mm-KI9"/>
                         <outlet property="groupMemberLbl" destination="NMj-6N-imO" id="PbP-PA-PzW"/>
