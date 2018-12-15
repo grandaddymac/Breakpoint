@@ -28,6 +28,7 @@
 		D89D79C521C1E4DC00B28827 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C421C1E4DC00B28827 /* CreateGroupsVC.swift */; };
 		D89D79C721C3282700B28827 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C621C3282700B28827 /* UserCell.swift */; };
 		D89D79C921C474F600B28827 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79C821C474F600B28827 /* GroupCell.swift */; };
+		D89D79CB21C47A9A00B28827 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D79CA21C47A9A00B28827 /* Group.swift */; };
 		E73A2EC8F73C0C84AD484296 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		D89D79C421C1E4DC00B28827 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		D89D79C621C3282700B28827 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D89D79C821C474F600B28827 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		D89D79CA21C47A9A00B28827 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		EE316E64AC24ECE163DF353A /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D89AC28D21BF34F700C4C844 /* Message.swift */,
+				D89D79CA21C47A9A00B28827 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				D89AC28821BC3DBC00C4C844 /* AuthService.swift in Sources */,
 				D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */,
 				D89D79C521C1E4DC00B28827 /* CreateGroupsVC.swift in Sources */,
+				D89D79CB21C47A9A00B28827 /* Group.swift in Sources */,
 				D89D79C721C3282700B28827 /* UserCell.swift in Sources */,
 				D89D79C321C078A500B28827 /* FeedCell.swift in Sources */,
 				D89AC28621BC372200C4C844 /* ShadowView.swift in Sources */,
