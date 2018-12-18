@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81C2E5A21C9B1D00071E040 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C2E5921C9B1D00071E040 /* UIViewControllerExt.swift */; };
 		D89AC26321B9F91B00C4C844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26221B9F91B00C4C844 /* AppDelegate.swift */; };
 		D89AC26521B9F91B00C4C844 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26421B9F91B00C4C844 /* FeedVC.swift */; };
 		D89AC26721B9F91B00C4C844 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AC26621B9F91B00C4C844 /* GroupsVC.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		308E8B476903EE95D469B6D1 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE2B6130AE298B450DECA1A /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		D81C2E5921C9B1D00071E040 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		D89AC25F21B9F91B00C4C844 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89AC26221B9F91B00C4C844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89AC26421B9F91B00C4C844 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				D89AC28F21BF417000C4C844 /* UIViewExt.swift */,
+				D81C2E5921C9B1D00071E040 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				D89D79C921C474F600B28827 /* GroupCell.swift in Sources */,
 				D89AC28021BC2E6600C4C844 /* AuthVC.swift in Sources */,
 				D89AC26721B9F91B00C4C844 /* GroupsVC.swift in Sources */,
+				D81C2E5A21C9B1D00071E040 /* UIViewControllerExt.swift in Sources */,
 				D89AC28221BC2E9F00C4C844 /* LoginVC.swift in Sources */,
 				D89D79CF21C482AD00B28827 /* GroupFeedVC.swift in Sources */,
 				D89D79CD21C4823F00B28827 /* GroupFeedCell.swift in Sources */,

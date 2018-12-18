@@ -482,7 +482,7 @@
         <!--Group FeedVC-->
         <scene sceneID="txd-HK-yoq">
             <objects>
-                <viewController id="8i8-re-fCX" customClass="GroupFeedVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="8i8-re-fCX" customClass="GroupFeedVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iXY-E0-r8n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -520,11 +520,11 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1UP-kt-bLw">
-                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" rowHeight="100" id="I5d-i6-w8i" userLabel="Group Feed Cell" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="I5d-i6-w8i" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I5d-i6-w8i" id="EfM-7J-rjo">
@@ -578,7 +578,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5zc-Jc-lpi">
-                                <rect key="frame" x="0.0" y="78" width="375" height="17"/>
+                                <rect key="frame" x="10" y="78" width="355" height="17"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -621,16 +621,16 @@
                         <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bQX-17-A53" firstAttribute="leading" secondItem="Vsb-KN-lGw" secondAttribute="leading" id="8yY-70-nf9"/>
+                            <constraint firstItem="04b-f5-PMv" firstAttribute="top" secondItem="1UP-kt-bLw" secondAttribute="bottom" id="FXQ-ye-e2Z"/>
                             <constraint firstItem="04b-f5-PMv" firstAttribute="trailing" secondItem="Vsb-KN-lGw" secondAttribute="trailing" id="KfX-wN-2kY"/>
-                            <constraint firstItem="1UP-kt-bLw" firstAttribute="bottom" secondItem="Vsb-KN-lGw" secondAttribute="bottom" id="UVE-Kt-wIO"/>
                             <constraint firstItem="1UP-kt-bLw" firstAttribute="top" secondItem="5zc-Jc-lpi" secondAttribute="bottom" constant="8" id="VSe-st-ToO"/>
-                            <constraint firstItem="Vsb-KN-lGw" firstAttribute="trailing" secondItem="5zc-Jc-lpi" secondAttribute="trailing" id="WTI-K6-TEb"/>
+                            <constraint firstItem="Vsb-KN-lGw" firstAttribute="trailing" secondItem="5zc-Jc-lpi" secondAttribute="trailing" constant="10" id="WTI-K6-TEb"/>
                             <constraint firstItem="5zc-Jc-lpi" firstAttribute="top" secondItem="bQX-17-A53" secondAttribute="bottom" constant="8" id="bAN-FI-R41"/>
                             <constraint firstItem="04b-f5-PMv" firstAttribute="leading" secondItem="Vsb-KN-lGw" secondAttribute="leading" id="cLi-gV-FBy"/>
                             <constraint firstItem="1UP-kt-bLw" firstAttribute="leading" secondItem="Vsb-KN-lGw" secondAttribute="leading" id="csa-Sn-pX0"/>
                             <constraint firstItem="1UP-kt-bLw" firstAttribute="trailing" secondItem="Vsb-KN-lGw" secondAttribute="trailing" id="d2r-KV-mjq"/>
                             <constraint firstItem="bQX-17-A53" firstAttribute="trailing" secondItem="Vsb-KN-lGw" secondAttribute="trailing" id="f2k-SV-rtK"/>
-                            <constraint firstItem="5zc-Jc-lpi" firstAttribute="leading" secondItem="Vsb-KN-lGw" secondAttribute="leading" id="qip-Yn-oFU"/>
+                            <constraint firstItem="5zc-Jc-lpi" firstAttribute="leading" secondItem="Vsb-KN-lGw" secondAttribute="leading" constant="10" id="qip-Yn-oFU"/>
                             <constraint firstAttribute="bottom" secondItem="04b-f5-PMv" secondAttribute="bottom" id="ua4-I8-QGF"/>
                             <constraint firstItem="bQX-17-A53" firstAttribute="top" secondItem="iXY-E0-r8n" secondAttribute="top" id="vFi-VB-j2G"/>
                         </constraints>
@@ -640,6 +640,7 @@
                         <outlet property="groupTitleLable" destination="Mmz-p8-upt" id="0pV-FA-1EA"/>
                         <outlet property="membersLabel" destination="5zc-Jc-lpi" id="Vwc-R1-kCp"/>
                         <outlet property="messageTextField" destination="LQg-xV-t2Z" id="Q3W-hn-2Ke"/>
+                        <outlet property="sendButton" destination="zdN-OV-G8e" id="eDx-DU-2gg"/>
                         <outlet property="sendButtonView" destination="04b-f5-PMv" id="3MI-a1-9R6"/>
                         <outlet property="tableView" destination="1UP-kt-bLw" id="BhN-X1-1rq"/>
                     </connections>
